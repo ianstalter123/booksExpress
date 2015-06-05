@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+<a href="/books/new"><h3>click to add books</h3></a>
+<h2>Book List</h2>
+
+<%books.forEach(function(book){ %>
+<br>
+Title: <%=book.title %>
+
+Size: <%=book.size %>
+	<% })  %>
+
+
+</body>
+</html>
